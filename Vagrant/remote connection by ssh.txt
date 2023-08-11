@@ -1,0 +1,16 @@
+1. enter the Vagrant file
+2. uncomment " config.vm.network "public_network" " line
+3. vagrant reload
+4. vagrant ssh
+5. sudo -i
+6. useradd "user"
+7. passwd "user"
+8. enter /etc/ssh/sshd_config file
+   vim /etc/ssh/sshd_config
+9. passwordAuthentication yes
+10. if ubuntu $ service ssh restart
+    if centos $ service sshd restart
+11. take ip
+12. open another terminal 
+13. $ ssh "user"@ip
+
